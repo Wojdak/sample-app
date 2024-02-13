@@ -6,4 +6,4 @@ RUN pip install --no-cache-dir Flask
 
 COPY . .
 
-CMD ["flask", "run"]
+CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0"]
